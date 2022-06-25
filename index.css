@@ -1,0 +1,136 @@
+* {
+  font-family: 'Overpass', sans-serif;
+}
+.container {
+  width: 25%;
+/*35*/
+  /* align-content: center; */
+  /* position: relative; */
+}
+.container1 {
+  background-color: hsl(213, 19%, 18%);
+  color: white;
+  padding: 20pt;
+  border-radius: 5%;
+  width: 20%;
+  /* height: 40%; */
+  top: 50%;
+  left: 50%;
+
+  position: fixed;
+  /* bring your own prefixes */
+  transform: translate(-50%, -50%);
+}
+
+.star {
+  background-color: hsl(213, 16%, 24%);
+  padding: 10pt;
+  border-radius: 50%;
+  /* margin: 10pt; */
+}
+
+.rating_sub{
+    padding: 7pt;
+    margin-top: 5pt;
+    color: hsl(25, 97%, 53%);
+    background-color: hsl(213, 16%, 24%);
+    border-radius: 25pt;
+    width: fit-content;
+    margin: 0 auto;
+}
+
+.heading {
+  font-weight: 600;
+}
+
+.para {
+  font-size: 13px;
+  font-weight: 300;
+  color: hsl(216, 12%, 54%);
+
+}
+
+/* .rate {
+    width: 50%;
+} */
+
+.rating {
+  display: flex;
+  list-style: none;
+  padding: 0;
+  width: 10%;
+}
+
+.ratingVal {
+  background-color: hsl(214, 16%, 28%);
+  /* align-items: center; */
+  /* align-content: center; */
+  color: hsl(216, 12%, 54%);
+  padding: 10px 15px;
+  margin-right: 20px;
+  border-radius: 100%;
+  cursor: pointer;
+  /* width: 10%; */
+}
+
+.ratingVal:hover {
+  background-color: hsl(217, 12%, 63%);
+  color: #fff;
+}
+
+.btn-submit {
+  /* display: block; */
+  width: 100%;
+  padding: 5pt 0pt;
+  font-size: 11pt;
+  border: none;
+  border-radius: 25pt;
+  background-color: #fff;
+  color: hsl(25, 97%, 53%);
+  cursor: pointer;
+}
+
+.attribution {
+  font-size: 11px;
+  text-align: center;
+}
+
+.attribution a {
+  color: hsl(228, 45%, 44%);
+}
+
+@media screen and (max-width: 481px) {
+    .container1{
+        width: 70%;
+    } 
+}
+
+@media screen and (min-width: 481px) {
+    .container1{
+        width: 60%;
+    } 
+}
+
+@media only screen and (min-width: 600px) {
+    .container1{
+        width: 40%;
+    } 
+}
+
+@media only screen and (min-width: 768px) {
+    .container1{
+        width: 30%;
+    } 
+}
+
+@media only screen and (min-width: 990px) {
+    .container1{
+        width: 23%;
+    } 
+}
+
+@media only screen and (min-width: 1300px) {
+    .container1{
+        width: 20%;
+    } 
+}
